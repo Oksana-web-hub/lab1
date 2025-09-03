@@ -1,0 +1,264 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+}
+
+
+
+#section_main {
+    width: 100%;
+    height: 100vh;
+ 
+}
+
+header {
+    height: 10vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+   
+ 
+
+}
+
+
+nav {
+
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+  
+
+}
+#logo a {
+    font-family: "Rubik Maps", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35pt;
+    text-decoration: none;
+    background-image: linear-gradient(to right, #0DE2FA, #0DFF15, #F739F7);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-box-decoration-break: clone;
+  }
+
+
+
+  ul{
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+   
+  }
+
+  li {
+    margin: 20px;
+    list-style: none;
+  }
+
+  li a {
+    font-family: "Roboto", sans-serif;
+    font-size:25pt;
+    font-weight: 300;
+    text-decoration: none;
+    color: #0DE2FA;
+  }
+
+
+
+main {
+    position: relative;
+}
+
+#main_picture {
+    position: absolute;
+    width: 914px;
+    height: 503px;
+    border-radius: 60px;
+    overflow: hidden;
+    top: 190px;
+    left: 410px;
+    z-index: 2;
+}
+
+#main_shadow {
+    position: absolute;
+    width: 914px;
+    height: 503px;
+    background-color:#0DE2FA;
+    border-radius: 60px;
+    top: 140px;
+    left: 460px;
+    z-index: 1;
+
+}
+
+#quote {
+    position: absolute;
+    width: 452px;
+    height: 412px;
+    background-color: #fff;
+    border-radius: 60px;
+    position: absolute;
+    top: 440px;
+    left: 250px;
+    z-index: 3;
+    box-shadow: 3px 3px 10px 10px rgb(201, 191, 191);
+    padding-top: 20px;
+
+}
+
+
+.text   {
+    height: 70%;
+}
+
+
+#but {
+    height: 30%;
+    width: 452px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#quote p {
+    font-size: 40pt;
+    margin-top: 0;
+    margin-bottom: 0;
+
+
+}
+
+#text1 {
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    text-align: center;
+  
+
+
+}
+
+
+#text2 {
+    font-family: "Roboto", sans-serif;
+    color: #DC9B32;
+    margin-left: 20px;
+
+}
+
+button {
+    width: 362px;
+    height: 91px;
+    background-color: #0DE2FA;
+    border: none;
+    border-radius: 30px;
+    font-size: 35pt;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+}
+
+#section_content {
+    width: 100%;
+    height: 100vh;
+      
+}
+
+#separator {
+    height: 10vh;
+    width: 100%;
+  
+}
+#header {
+    height: 7vh;
+    width: 100%;
+   
+}
+#header p {
+    font-family: "Roboto", sans-serif;
+    font-size: 35pt;
+    margin: 0;
+    text-align: center;
+    color: #DC9B32;
+
+}
+
+#content {
+    height: 83vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#tours {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    place-items: center;
+
+}
+
+.tour {
+    width: 290px;
+    height: 370px;
+    background-color: #4b4848;
+    border-radius: 40px;
+
+}
+
+
+
+#section_quote {
+    width: 100%;
+    height: 50vh;
+    background-color: #9ae0ba;
+}
+
+#section_contacts {
+    width: 100%;
+    height: 100vh;
+    background-color: #f0a8d8;
+}
+
+
+.tour1 {
+    background-image: url(./image/maldiv.jpg);
+    background-repeat: no-repeat;
+}
+
+.tour2 {
+    background-image: url(./image/indon.jpg);
+    background-repeat: no-repeat;
+}
+.tour3 {
+    background-image: url(./image/maldiv.jpg);
+    background-repeat: no-repeat;
+}
+.tour4 {
+    background-image: url(./image/maldiv.jpg);
+    background-repeat: no-repeat;
+}
+.tour5 {
+    background-image: url(./image/maldiv.jpg);
+    background-repeat: no-repeat;
+}
+.tour6 {
+    background-image: url(./image/maldiv.jpg);
+    background-repeat: no-repeat;
+}
+.tour7 {
+    background-image: url(./image/maldiv.jpg);
+    background-repeat: no-repeat;
+}
+.tour8 {
+    background-image: url(./image/maldiv.jpg);
+    background-repeat: no-repeat;
+}
